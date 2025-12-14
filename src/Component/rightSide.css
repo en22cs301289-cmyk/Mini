@@ -1,0 +1,171 @@
+.rightSidepage{
+    display: flex;
+    flex-direction: column;
+     align-items: end;
+    width: 100%;
+    margin-top: 10x;
+        
+}
+
+ .rightsidebox{
+    width: 81%;
+    margin-top: 35px;
+     align-items: end;
+     /* border: 1px solid; */
+   
+ }
+
+ .suggestnav{
+    margin-right: 16px;
+    margin-bottom: 16px;
+ }
+
+ 
+
+.suggestnav   {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    /* margin-right: 18.5px; */
+
+}
+
+ .suggestnav > :first-child{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.525);
+ }
+
+ .suggestnav > :last-child{
+    font-size: 12px;
+    font-weight: 600;
+    /* color: rgba(0, 0, 0, 0.744); */
+    color: #000;
+    cursor: pointer;
+    &:hover{
+      color: #00000073;
+    }
+ }
+ 
+ .otherProfile{
+    
+   display: flex;
+   flex-direction: column;
+   /* align-items: end; */
+   /* width: 100%; */
+   /* border: 1px solid; */
+   
+ 
+    
+ }
+ 
+ 
+.fixedprofile{
+   position: fixed;
+   /* bottom: 0; */
+   right:  31px;
+   margin-top: 555px;
+   padding-left: 14px;
+   padding-top: 9px;
+   padding-bottom: 4px;
+   box-shadow: 1px 1px 10px #00000058;
+   background-color: #fff;
+   border-radius: 30px;
+   /* height:25px; */
+   width: 230px;
+   cursor: pointer;
+   
+}
+ 
+ .box{
+  
+   display: flex;
+   /* height:200px; */
+   /* align-items: center; */
+   /* justify-content: center; */
+   gap: 3px;
+   
+ }
+
+ .box img{
+   height: 35px;
+   width: 35px;
+   
+   
+ }
+
+.imgMessage{
+    margin-bottom: 5px;
+}
+
+.imgMessage .share{
+   height: 33px;
+   width: 33px;
+
+}
+
+.borderimg{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+
+}
+
+.borderimg :first-child{
+   font-weight: 600;
+}
+ .borderimg img{
+   height: 25px;
+   width: 25px;
+   border: 2px solid #fff;
+   border-radius: 100%;
+   position: relative;
+    border-radius: 100px;
+   
+ }
+
+ .rightnav{
+   display: flex;
+   position: relative;
+   align-items: center;
+   justify-content: center;
+ }
+
+
+ .rightnav .secndimg{
+   right: 8px;
+   position: relative;
+   
+
+ }
+ .rightnav .thrdimg{
+   right: 16px;
+   position: relative;
+   
+
+ }
+ .threedot{
+   background-color: #00000020;
+   height: 23px;
+   width: 23px;
+   border-radius: 100px;
+    position: relative;
+    right: 22px;
+    margin-bottom: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+
+ }
+
+ .threedot .dot{
+   background-color: #000;
+   height: 2px;
+   width: 2px;
+   border-radius: 100px;
+   position: relative;
+   margin: 1px;
+   
+ }

@@ -1,0 +1,83 @@
+.profilediv {
+   display: flex;
+  flex-direction: column;
+ 
+  /* font-size: 12px; */
+  margin-top: 21px;
+  /* border: 1px solid; */
+   width: fit-content;         
+  height: fit-content; 
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
+   cursor: pointer;
+}
+
+.imgcircle {
+  width: 80px;
+  height: 81px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   background: conic-gradient(
+    from 0deg,
+    rgba(135, 206, 235, 1) 0%,      /* skyblue */
+    rgba(135, 206, 235, 0.6) 15%,   /* fade out skyblue */
+    rgba(255, 0, 0, 0.5) 25%,       /* fade in red */
+    rgba(255, 0, 0, 1) 40%,         /* red full */
+    rgba(255, 165, 0, 1) 60%,       /* orange full */
+    rgba(255, 165, 0, 0.6) 75%,     /* fade out orange */
+    rgba(255, 0, 0, 0.6) 85%,       /* fade in red again */
+    rgba(135, 206, 235, 0.8) 95%,   /* fade to skyblue */
+    rgba(135, 206, 235, 1) 100%     /* smooth close */
+  );
+  padding: 3px;
+  
+}
+
+.bgcwhite{
+  width: 79.5px; 
+  height: 79.5px;
+  border-radius: 50%;
+  object-fit: cover;
+  background-color: white; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imgcircle img {
+  width: 73px; 
+    height: 74px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+ 
+}
+
+/*  
+.imgcircle {
+  width: 80px;
+  height: 78px;
+  border-radius: 100%;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+   
+  border: 3.5px solid red;
+ }
+
+ 
+.storyImg {
+  width: 74px; 
+    height: 72px;
+  
+
+  border-radius: 100%;
+  object-fit: cover;
+    } */
+
+.profileStoryName{
+  font-size: small;
+}

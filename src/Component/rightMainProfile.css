@@ -1,0 +1,73 @@
+ 
+.profilecontainer{
+    
+    /* width: 76%; */
+    /* margin-top: 35px; */
+    /* margin-right: 70px; */
+    /* border: 1px solid; */
+    margin-right: 16.5px;
+    margin-bottom: 17px;
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profileDiv{
+    display: flex;
+    align-items: center;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: left;
+    /* align-items: end; */
+    line-height: 1;
+    gap: 2px;
+
+}
+
+.column > div {
+  margin: 0; 
+  padding: 0;
+  line-height: 1; 
+}
+
+.userName,
+.Name {
+  margin: 0;
+  padding: 0;
+  /* cursor: pointer; */
+}
+
+.userName{
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.Name{
+    font-weight: 450;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.425);
+}
+.profileDiv img{
+    height: 44px;
+    width: 44px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.profileDiv{
+    gap: 11px;
+}
+.follow{
+    font-size: 12px;
+}
+
+ 

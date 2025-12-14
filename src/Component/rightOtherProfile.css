@@ -1,0 +1,103 @@
+.otherProfile{
+    /* width: 81%; */
+    /* margin-left: 6px; */
+    display: flex;
+    align-items: end;
+    /* border: 1px solid; */
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.namebox{
+    display: flex;
+    gap: 10px;
+    width: 75.5%;
+    /* width: 100%; */
+    /* margin-left: 6px; */
+    /* align-items: center; */
+    margin-right: 17px !important;
+
+}
+
+.namebox img{
+     height: 44px;
+     width: 44px;
+     border-radius: 100%;
+     cursor: pointer;
+}
+
+.profilenav{
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    /* gap: 20px; */
+    width: 100%;
+    overflow: hidden;
+}
+
+.rightdiv {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+  gap: 1px;
+  flex: 1; /* take remaining space */
+  min-width: 0; /* required for ellipsis to work */
+  overflow: hidden;
+}
+
+.rightdiv .username,
+.rightdiv .followedname {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  cursor: pointer;
+}
+
+.rightdiv .username {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.rightdiv .followedname {
+  font-weight: 400;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.46);
+}
+
+/* Button Styles */
+.leftdiv {
+  flex-shrink: 0; /* prevent it from resizing */
+  margin-left: 10px;
+}
+ 
+ 
+.follow-btn{
+      
+      /* margin-right: 21px; */
+      background-color: blueviolet;
+      width: 82px;
+      padding: 9px;
+      border-radius: 9px;
+      font-weight: 550;
+      border: none;
+      text-align: center;
+      color: #fff;
+      cursor: pointer;
+    }
+    .following-btn{
+        
+       /* margin-right: 21px !important; */
+       text-align: center;
+        
+    background-color: #00000010;
+    width: 100px;
+    padding: 9px;
+    border-radius: 9px;
+    font-weight: 540px;
+    border: none;
+
+    color: #000;
+    cursor: pointer;
+}

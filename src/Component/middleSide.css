@@ -1,0 +1,22 @@
+.storyProfileContainer{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+  
+}
+
+ .postContainer{
+     margin-top: 40px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+      
+    }
+    
+    .middlePost{
+        /* border: 1px solid; */
+        width: 73%;
+        margin-right: 6px;
+
+ }
